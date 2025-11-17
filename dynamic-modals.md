@@ -68,3 +68,8 @@ Then, at the very bottom of the component, add (after importing Modal).
 ```tsx
 <Modal modalKey="login" openKey={openKey} setOpenKey={setOpenKey} />
 ```
+
+# Step 4
+
+How to use the Dynamic Modal with the function? Go to [Hookform and Zod with functions Example](./hookform-zod-with-function.md)
+
