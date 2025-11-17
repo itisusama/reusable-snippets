@@ -154,6 +154,8 @@ export default function RegisterForm() {
   );
 }
 ```
+# Step 2
+
 Export your schema from a separate file.
 
 ```ts
@@ -202,6 +204,8 @@ async function onSubmit(values: RegisterSchema) {
   }
   }
 ```
+# Step 3
+
 It calls an await registerUser(values); which is getting from auth.ts function. (export your functions)
 
 ```ts
