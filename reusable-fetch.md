@@ -29,6 +29,8 @@ options?: {
 
 Examples
 
+(You can, but you don't need to define if the header is an application/json)
+
 ```tsx
 const fetchVideosData = async () => {
         const video = await fetchAPI("http://localhost:5000/api/details/", setLoading, {headers: { Accept: "application/json" }})
